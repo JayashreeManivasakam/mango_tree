@@ -1,0 +1,11 @@
+row=int(input())
+column=int(input())
+tree=int(input())
+if(tree<=row):
+    print("True")
+elif(tree%row==0):
+    print("True")
+elif((tree-1)%row==0):
+    print("True")
+else:
+    print("False")
